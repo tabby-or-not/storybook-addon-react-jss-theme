@@ -36,5 +36,11 @@ storiesOf("demo", module)
   .add("demo div", () => <div>DEMO</div>);
 ```
 
-#### Remind
-Make sure every theme with `name` property
+#### Reminder
+Make sure every theme has a `name` property
+
+
+#### Troubleshooting
+If you have addon channel errors, please update the version of your storybook and related addons to match.
+
+See https://storybook.js.org/basics/faq/#why-is-there-no-addons-channel
