@@ -1,24 +1,18 @@
-[![npm version](https://badge.fury.io/js/storybook-addon-styled-component-theme.svg)](https://badge.fury.io/js/storybook-addon-styled-component-theme)
-
-
-![](https://media.giphy.com/media/FfFvOA9C0h9bhfCuNX/giphy.gif)
-
-
 #### Installation
 ```bash
-yarn add storybook-addon-styled-component-theme --dev
+yarn add storybook-addon-react-jss-theme --dev
 ```
 
-#### Add to .storybook/addons.js 
+#### Add to .storybook/addons.js
 
 ```javascript
-import 'storybook-addon-styled-component-theme/dist/register';
+import 'storybook-addon-react-jss-theme/dist/register';
 ```
 
 #### addDecorator to .storybook/config.js
 ```javascript
 import {addDecorator} from '@storybook/react';
-import {withThemesProvider} from 'storybook-addon-styled-component-theme';
+import {withThemesProvider} from 'storybook-addon-react-jss-theme';
 
 const themes = [theme1, theme2];
 addDecorator(withThemesProvider(themes));
@@ -26,10 +20,10 @@ addDecorator(withThemesProvider(themes));
 
 > or
 
-#### addDecorator to stories 
+#### addDecorator to stories
 
 ```javascript
-import {withThemesProvider} from 'storybook-addon-styled-component-theme';
+import {withThemesProvider} from 'storybook-addon-react-jss-theme';
 
 const themes = [theme1, theme2];
 
