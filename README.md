@@ -1,3 +1,7 @@
+See [storybook-addon-styled-component-theme](https://github.com/echoulen/storybook-addon-styled-component-theme)
+
+This is a direct copy, adapted to work for react-jss
+
 #### Installation
 ```bash
 yarn add storybook-addon-react-jss-theme --dev
